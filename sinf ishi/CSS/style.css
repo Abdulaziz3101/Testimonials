@@ -1,0 +1,89 @@
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/rubik-v21-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* rubik-500 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+        url('../fonts/rubik-v21-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/rubik-v21-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.grid-container{
+    display: grid;
+    width: 1400px;
+    grid-template-columns: 400px 400px ;
+    justify-content: center;
+
+}
+.grid-item{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+.wrapper{
+   display: flex;
+   margin-bottom: 45px;
+   
+}
+.wrapper1{
+    display: flex;
+    padding-left: 100px;
+ }
+ .wrapper2{
+    display: flex;
+ }
+ .wrapper3{
+    display: flex;
+    padding-left: 100px;
+    margin-top: 5px;
+ }
+
+h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color:  #363940;
+    
+}
+.item-p{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+color: #95A1BB;
+margin-bottom: 15px;
+}
+.item1-p{
+    width: 366px;
+    height: 88px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #363940;
+}

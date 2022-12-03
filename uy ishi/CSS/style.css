@@ -1,0 +1,412 @@
+/* rubik-300 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/rubik-v21-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/rubik-v21-latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/rubik-v21-latin-300.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/rubik-v21-latin-300.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/rubik-v21-latin-300.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/rubik-v21-latin-300.svg#Rubik') format('svg');
+    /* Legacy iOS */
+}
+
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: regular;
+    font-weight: 400;
+    src: url('../fonts/rubik-v21-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/rubik-v21-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/rubik-v21-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/rubik-v21-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/rubik-v21-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/rubik-v21-latin-regular.svg#Rubik') format('svg');
+    /* Legacy iOS */
+}
+
+/* rubik-500 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v21-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/rubik-v21-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/rubik-v21-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/rubik-v21-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/rubik-v21-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/rubik-v21-latin-500.svg#Rubik') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+    margin-right: 30px;
+}
+
+.wrapper1 {
+    margin-left: 100px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    color: #363940;
+    ;
+}
+
+.name1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363940;
+    margin: 0px 0px 0px;
+    margin-bottom: 11px;
+}
+
+.wrapper5 {
+    margin-right: 100px;
+}
+
+.user {
+    margin-top: 200px;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 25px;
+}
+
+.name-company {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.star {
+    display: flex;
+    list-style: none;
+}
+
+.star1 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.star2 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+}
+
+.star3 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+}
+
+.star4 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+}
+
+.star5 {
+    width: 18px;
+    height: 17px;
+    margin: 0px;
+    margin: 0px;
+}
+
+.wrapper-text {
+    width: 410px;
+    height: 132px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-around;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.user2 {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 30px;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: center;
+}
+
+.list1 {
+    margin-left: 99px;
+}
+
+.user3 {
+    width: 300px;
+    height: 160px;
+    margin-bottom: 22px;
+}
+
+.list2 {
+    margin-left: 50px;
+}
+
+.wrapper-text2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #363940;
+    width: 300px;
+    height: 88px;
+}
+
+.name-company2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.grid-text {
+    width: 460px;
+    height: 66px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.grid-item {
+    margin-left: 250px;
+}
+
+.grid-item2 {
+    margin-left: 450px;
+}
+
+.img {
+    display: flex;
+    margin-top: 53px;
+}
+
+.name2 {
+    width: 140px;
+    height: 22px;
+    margin-bottom: 5px;
+}
+
+.name-company3 {
+    width: 97px;
+    height: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+}
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+}
+
+.container-text {
+    width: 300px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: #363940;
+}
+
+.container-item {
+    display: flex;
+}
+
+.name3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #363940;
+    margin-bottom: 5px;
+}
+
+.name-company4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #95A1BB;
+    margin-bottom: 40px;
+}
+
+.grid-container6 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.google-emblem {
+    width: 127px;
+    height: 42px;
+    margin-right: 50px;
+}
+
+.microsoft-emblem {
+    width: 162px;
+    height: 34px;
+    margin-right: 50px;
+}
+
+.pinters-emblem {
+    width: 148px;
+    height: 37px;
+    margin-right: 50px;
+}
+
+.wikipediya-emblem {
+    width: 169px;
+    height: 24px;
+    margin-right: 50px;
+}
+
+.amazon-emblem {
+    width: 115px;
+    height: 34px;
+}
+
+.grid-item3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 77px;
+}
+
+.grid-text2 {
+    width: 660px;
+    height: 66px;
+    color: #95A1BB;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.grid-button {
+    width: 150px;
+    height: 20px;
+    border: 1px solid #6E38F7;
+    border-radius: 4px;
+    background-color: #6E38F7;
+    display: flex;
+    border: none;
+    margin-left: 612px;
+    margin-top: 40px;
+}
+
+.button {
+    width: 157px;
+    height: 46px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #6E38F7;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
